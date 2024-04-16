@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliar filme</title>
+  <script src="avaliar-filme.js" defer></script>
+</head>
+
+<body>
+  <h1>Avaliar Filme</h1>
+  <form id="movieForm">
+    <label for="name">Nome do filme</label>
+    <input type="text" id="name" required><br>
+
+    <label for="rate">Avaliação</label>
+    <input type="number" id="rate" min="1" max="5" required><br>
+
+    <button type="button" id="rateBtn">Avaliar Filme</button>
+    <button type="button" id="showMoviesBtn">Mostrar Filmes</button><br>
+  </form>
+
+  <div id="message"></div>
+  <div id="showMovies"></div>
+</body>
+
+</html>

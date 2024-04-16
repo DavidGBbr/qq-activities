@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descubra o Número</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Descubra o Número</h1>
+    <p id="message"></p>
+    <form id="guessForm">
+      <label for="guessInput">Faça seu palpite (1-100):</label>
+      <input type="number" id="guessInput" min="1" max="100" required>
+      <button id="guessBtn" type="submit">Enviar</button>
+      <button id="restartBtn" type="button">Reiniciar</button>
+      <button id="showGuessesBtn" type="button">Mostrar palpites</button>
+    </form>
+    <div class="attempts">Tentativas restantes: <span id="attemptsLeft">5</span></div>
+    <div id="guesses">
+    </div>
+  </div>
+</body>
+
+</html>

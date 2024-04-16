@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperatura</title>
+  <script src="temperatura.js" defer></script>
+</head>
+
+<body>
+  <h1>Monitoramento de temperatura semanal</h1>
+  <form id="temperatureForm">
+    <label for="temperature">Digite a temperatura máxima do dia:</label>
+    <input type="text" id="temperature" required><br>
+
+    <button type="button" id="addTemperatureBtn">Inserir temperatura</button>
+    <button id="showMonitoringBtn">Mostrar monitoramento</button><br>
+  </form>
+
+  <div id="message"></div>
+  <div id="showMonitoring"></div>
+</body>
+
+</html>
